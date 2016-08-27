@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="posts">
+    <ul class="post-link-container">
+    {% for post in posts %}
+        <li><span class="post-publish-date">{{ post.pub_date.strftime('%b %d, %Y') }}</span> <a href="{{ post.permalink }}" class="post-link">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+

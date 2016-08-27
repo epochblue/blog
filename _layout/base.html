@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}cubicle17 - a blog by Bill Israel{% endblock %}</title>
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/blog.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header"><a href="/">cubicle17</a> <span class="description">is a weblog by Bill Israel.</span></h1>
+
+        <div class="article">
+        {% block content %}
+        {% endblock %}
+        </div>
+        
+        <div class="footer">
+            <ul class="nav">
+                <li><a href="/rss.xml" class="rss">rss</a></li>
+                <li>this blog is powered by <a href="https://github.com/epochblue/nanogen">nanogen</a>.</li>
+                <li><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">cc by-sa 4.0</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+

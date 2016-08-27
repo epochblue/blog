@@ -1,0 +1,9 @@
+# Misc
+.DS_Store
+.idea
+*.iml
+
+# nanogen
+_site
+nanogen.log
+

@@ -1,0 +1,77 @@
+html { background: #fff; color: #222; font-size: 18px; }
+body {
+    font: normal 1em/1.5 "Anonymous Pro", "Menlo", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 { font-size: 1.5em; padding: 0; margin: 0 0 1em; }
+
+ul, ol, p { margin: 0 0 1.5em; }
+
+a { color: #346b9a; }
+a:hover, a:focus { color: #9a6934; }
+
+.container {
+    width: 37em;
+    margin: 0 auto;
+    padding: 1.5em 0 3em;
+}
+
+.header { border-bottom: 5px solid #ddd; font-size: 1.5em; padding: 0 0 1em; margin: 0 0 2em; }
+.header a { text-decoration: none; }
+.header a:hover, h1 a:focus { text-decoration: underline; }
+.header .description { color: #666; font-size: 0.8em; font-weight: normal; }
+
+.permalink { font-weight: normal; }
+
+.post { margin: 0 0 1.5em; }
+.post-link-container { list-style-type: none; margin: 0; padding: 0; }
+.post-publish-date { margin-right: 1em; }
+
+.post-footer { color: #bbb; margin: 1.5em 0; }
+
+.footer {
+    border-top: 5px solid #ddd;
+    color: #888;
+    margin: 3em 0 0;
+    padding: 1.5em 0 0;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 0 0.5em;
+}
+
+.nav li:first-child {
+    padding-left: 0;
+}
+
+
+
+/* Pygments */
+/* Generated with http://jwarby.github.io/jekyll-pygments-themes/languages/python.html */
+.highlight pre,
+.highlight .p,
+.highlight .err{color:#666;}
+.highlight .nf{color:#993434;font-weight:bold}
+.highlight .ow{font-weight:bold}
+.highlight .c,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1,
+.highlight .cs,
+.highlight .sd{color:#68c732;}
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt{color:#346b9a;font-weight:bold}

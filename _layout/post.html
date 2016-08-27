@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}cubicle17 - {{ post.title }}{% endblock %}
+
+{% block content %}
+    <div class="post">
+        <a href="{{ post.permalink }}" class="permalink"><span class="date">{{ post.pub_date.strftime('%Y-%m-%d') }}</span></a>
+        <h2 class="post-title">{{ post.title }}</h2>
+
+        {{ post.html_content }}
+    </div>
+{% endblock %}
+
