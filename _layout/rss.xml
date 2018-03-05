@@ -6,10 +6,10 @@
         <description>{{ site.description }}</description>
         {% for post in posts[:10] %}
         <item>
-            <guid>{{ site.url }}{{ post.permalink }}</guid>
+            <guid>{{ site.url }}/{{ post.permalink }}</guid>
+            <link>{{ site.url }}/{{ post.permalink }}</link>
             <title>{{ post.title }}</title>
             <pubDate>{{ post.pub_date.strftime('%a, %d %b %Y %H:%M:%S GMT') }}</pubDate>
-            <link>{{ site.url }}{{ post.permalink }}</link>
             <description>
                 {{ post.html_content|escape }}
             </description>
