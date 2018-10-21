@@ -1,4 +1,4 @@
-html { background: #fff; color: #333; font-size: 15px; }
+html { background: #fff; color: #333; font-size: 16px; }
 body {
     font: normal 1em/1.5 "Andale Mono", "Monaco", "Courier New", monospace;
     margin: 0;
@@ -15,7 +15,7 @@ a { color: #333; text-decoration: underline; }
 a:hover, a:focus { color: #db4648; }
 
 .container {
-    width: 48rem;
+    width: 45rem;
     margin: 0 auto;
     padding: 1.5rem 0 3rem;
 }
