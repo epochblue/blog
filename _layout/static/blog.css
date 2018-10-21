@@ -1,42 +1,41 @@
-html { background: #fff; color: #222; font-size: 18px; }
+html { background: #fff; color: #333; font-size: 15px; }
 body {
-    font: normal 1em/1.5 "Anonymous Pro", "Menlo", monospace;
+    font: normal 1em/1.5 "Andale Mono", "Monaco", "Courier New", monospace;
     margin: 0;
     padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1, h2 { font-size: 1rem; padding: 0; margin: 0 0 1.5rem; }
+h1 { text-transform: uppercase }
 
-h1, h2 { font-size: 1.5em; padding: 0; margin: 0 0 1em; }
+ul, ol, p { margin: 0 0 1.5rem; }
 
-ul, ol, p { margin: 0 0 1.5em; }
-
-a { color: #346b9a; }
-a:hover, a:focus { color: #9a6934; }
+a { color: #333; text-decoration: underline; }
+a:hover, a:focus { color: #db4648; }
 
 .container {
-    width: 37em;
+    width: 48rem;
     margin: 0 auto;
-    padding: 1.5em 0 3em;
+    padding: 1.5rem 0 3rem;
 }
 
-.header { border-bottom: 5px solid #ddd; font-size: 1.5em; padding: 0 0 1em; margin: 0 0 2em; }
-.header a { text-decoration: none; }
-.header a:hover, h1 a:focus { text-decoration: underline; }
-.header .description { color: #666; font-size: 0.8em; font-weight: normal; }
+.header { padding: 0; margin: 0 0 1.5rem; }
+.header .description { color: #666; font-weight: normal; text-transform: lowercase; }
 
 .permalink { font-weight: normal; }
 
-.post { margin: 0 0 1.5em; }
+.post { margin: 0 0 1.5rem; }
+.post-title { font-size: 1.2rem; line-height: 1.25; }
 .post-link-container { list-style-type: none; margin: 0; padding: 0; }
-.post-publish-date { margin-right: 1em; }
-
-.post-footer { color: #bbb; margin: 1.5em 0; }
+.post-publish-date { margin-right: 1rem; }
+.post-footer { color: #999; margin: 1.5rem 0; }
 
 .footer {
-    border-top: 5px solid #ddd;
-    color: #888;
-    margin: 3em 0 0;
-    padding: 1.5em 0 0;
+    border-top: 1px solid #ccc;
+    color: #666;
+    margin: 1.5rem 0 0;
+    padding: 1.5rem 0 0;
 }
 
 .nav {
@@ -46,7 +45,7 @@ a:hover, a:focus { color: #9a6934; }
 
 .nav li {
     display: inline;
-    padding: 0 0.5em;
+    padding: 0 0.5rem;
 }
 
 .nav li:first-child {

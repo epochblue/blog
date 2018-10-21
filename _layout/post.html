@@ -4,10 +4,11 @@
 
 {% block content %}
     <div class="post">
-        <a href="{{site.url}}/{{ post.permalink }}" class="permalink"><span class="date">{{ post.pub_date.strftime('%Y-%m-%d') }}</span></a>
         <h2 class="post-title">{{ post.title }}</h2>
 
         {{ post.html_content }}
+
+        <p class="post-footer">This post was published on <a href="{{site.url}}/{{ post.permalink }}" class="permalink"><span class="date">{{ post.pub_date.strftime('%Y-%m-%d') }}</span></a>.</p>
     </div>
 {% endblock %}
 
