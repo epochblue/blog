@@ -1,0 +1,43 @@
+/* variables */
+:root{
+  --bg-color: #fefefe;
+  --text-color: #333;
+  --link-color: #5176f0;
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-display: swap;
+  src: url('source-code-pro.ttf') format('truetype');
+}
+
+html { background: var(--bg-color); color: var(--text-color); font-size: 18px; }
+body {
+    font: normal 1rem/1.5 "Source Code Pro", "Menlo", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1{ font-size: 1.1rem; padding: 0; margin: 0 0 1.363rem; }
+h2 { font-size: 1.3rem; padding: 0; margin: 0 0 1.154rem; }
+
+ul, p { margin: 0 0 1.5rem; }
+
+a { color: var(--link-color); text-decoration: underline; }
+a:hover, a:focus { text-decoration: none; }
+
+.container {
+    width: 42rem;
+    margin: 0 auto;
+    padding: 1.5rem 0 3rem;
+}
+
+header { padding: 0; margin: 1.5rem 0 3rem; }
+.description { color: #999; }
+
+footer { margin: 3rem 0; text-transform: lowercase; }
+footer ul { list-style-type: none; padding: 0; }
+footer ul li { display: inline-block; margin-right: 1rem; }
+

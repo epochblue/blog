@@ -1,10 +1,7 @@
 # Misc
 .DS_Store
-.idea
-*.iml
+__pycache__
 
-# nanogen
+# generated blog files
 _site
-_preview
-nanogen.log
 
